@@ -32,3 +32,30 @@
 ![Screenshot from 2023-02-21 23-22-21](https://user-images.githubusercontent.com/75359779/220461423-d0e266f7-f9fd-4a65-b3d5-96c8fbd59920.png)
 -  
 ![Screenshot from 2023-02-21 23-25-35](https://user-images.githubusercontent.com/75359779/220461992-29940eef-e717-4ea1-9f28-3fc3a981dfb3.png)
+
+---
+
+- create deployment and service files inside the VM 
+P.S.  I previously pushed the docker image to the GCR few hours ago.. 
+![Screenshot from 2023-02-21 23-28-10](https://user-images.githubusercontent.com/75359779/220462481-203eb7ea-9638-49a8-9131-a84fe7798b96.png)
+ 
+![Screenshot from 2023-02-21 23-30-07](https://user-images.githubusercontent.com/75359779/220462862-c2668630-dcec-430f-8324-1af4ce028f18.png)
+
+-----
+from the load balancer use the Ip to be able to see the running app 
+ 
+ 
+![Screenshot from 2023-02-21 23-35-28](https://user-images.githubusercontent.com/75359779/220463777-5f065af1-922d-4178-8f1c-d479892a7a1e.png)
+
+![Screenshot from 2023-02-21 23-36-47](https://user-images.githubusercontent.com/75359779/220464034-09605766-ec0c-4fe4-b553-6403ccfd34ab.png)
+ 
+ -- 
+ and finally use the command "terraform destroy" to destroy all of the built resources 
+  
+ 
+ 
+![Screenshot from 2023-02-21 23-48-51](https://user-images.githubusercontent.com/75359779/220466369-d8a40ef9-ba95-4cc5-85a6-4eec1594c756.png)
+
+
+
+
