@@ -28,3 +28,7 @@
 ![Screenshot from 2023-02-21 23-13-31](https://user-images.githubusercontent.com/75359779/220459993-25d0136f-5fd3-4b19-a941-a23ba72ce6e6.png)
 - 2 VMs one from the cluster - created automatically - and the other has been created strictly inside the terraform files 
 - ![Screenshot from 2023-02-21 23-18-20](https://user-images.githubusercontent.com/75359779/220460999-61156849-ae7a-43ee-940e-48e268368f7e.png)
+- we have to connect the VM -the one inside the management subnet with the cluster to be able to deploy the app and run commands 
+![Screenshot from 2023-02-21 23-22-21](https://user-images.githubusercontent.com/75359779/220461423-d0e266f7-f9fd-4a65-b3d5-96c8fbd59920.png)
+-  
+![Screenshot from 2023-02-21 23-25-35](https://user-images.githubusercontent.com/75359779/220461992-29940eef-e717-4ea1-9f28-3fc3a981dfb3.png)
