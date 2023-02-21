@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name:  my-app
+  labels:
+    app:  my-app
+spec:
+  selector:
+    matchLabels:
+      app: my-app
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name:  python-container
+        image:  gcr.io/haithem56929/my-python-app:latest
+        ports:
+          - containerPort: 8000
+      - name:  redis-container
+        image:  redis:latest
+        ports:
+          - containerPort: 6379
+          
+          
+          
+       

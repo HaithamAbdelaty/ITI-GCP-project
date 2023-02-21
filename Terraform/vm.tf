@@ -21,6 +21,5 @@ resource "google_compute_instance" "My-Private-VM" {
           "https://www.googleapis.com/auth/cloud-platform"
     ]
   }
-  metadata_startup_script = " echo hello/hello.txt"
-
+  metadata_startup_script =file("configurationscript.sh")
 }

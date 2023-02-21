@@ -1,0 +1,3 @@
+redis==3.0.1
+tornado==5.1.1
+#gcloud container clusters get-credentials private-cluster --zone us-central1-c --project haithem56929
